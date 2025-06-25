@@ -30,7 +30,7 @@ source $HOME/.cargo/env
 
 - Son olarak Nexus yükleyelim ve platform üzerinden aldığımız ID ile node başlatalım. SS'de göründüğü gibi ilk önce 1 numaraya tıklıyoruz sonra 2 numaraya tıklayıp Node ID alıyoruz. Çalıştırmaya başladıktan bir süre sonra aynı ekranın alt tarafında görünmeye başlar. Sol tarafında yeşil yanması çalışltığını gösteriyor.
 ```
-curl https://cli.nexus.xyz/ | sh
+curl https://cli.nexus.xyz/ | sh -s -- -y
 source ~/.bashrc
 nexus-network start --node-id <your-node-id>
 ```
