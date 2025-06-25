@@ -19,7 +19,7 @@
 ## Yükleme Adımları
 - Öncelikle güncellemeleri yapalım ve tmux ekranı açalım.
 ```
-sudo apt update && sudo apt install lz4 ocl-icd-opencl-dev ocl-icd-libopencl1 tar wget make libopencl-clang-dev tmux build-essential git jq  libgomp1 -y && sudo apt install wget -y && cd $HOME && tmux new-session -t nexus
+sudo apt update && sudo apt upgrade -y && sudo apt install pkg-config libssl-dev build-essential tmux && cd $HOME && tmux new-session -t nexus
 ```
 
 - Daha sonra Rust yükleyelim
