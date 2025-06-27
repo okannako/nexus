@@ -12,7 +12,7 @@
 
 ## Tavsiye Edilen Sistem Gereksinimleri
 - CPU: 4+ Cores
-- RAM: 4+ GB
+- RAM: 8+ GB
 - SSD: 50+ GB
 - İşletim Sistemi: UBUNTU 24.04LTS
 
